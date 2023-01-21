@@ -12,19 +12,44 @@
 </head>
 <body>
 <main>
-<section id="hero" class="msecs">
-<div id="backVids">
-    <video autoplay muted loop id="carV" class="vids">
-        <source src="assets/videos/pexels-cottonbro-10385815.mp4" type="video/mp4">
-    </video>
-    <video autoplay muted loop id="spaceVid" class="vids">
-        <source src="assets/videos/pexels-rodnae-productions-8474604.mp4" type="video/mp4">
-    </video>
-    <video autoplay muted loop id="rockVid" class="vids">
-        <source src="assets/videos/92df49f3-a43e78d1.mp4" type="video/mp4">
-    </video>
-</div>
-</section>
+    <section class="msecs" id="hero">
+        <div id="backVids">
+            <div class="videoDivs">
+                <h4 class=vidHead>INTRO</h4>
+                <video autoplay class="vids" id="carV" loop muted>
+                    <source src="assets/videos/pexels-cottonbro-10385815.mp4" type="video/mp4">
+                </video>
+
+                <div class="vidChild">
+                    <h1 class="fontNanum" id="intro-Name">J.A.R.V.I.S</h1>
+                    <h3 class="fontNanum" id="intro-Desc">Just A Rather Very Intelligent System.</h3>
+                    <button class="fontNanum">Contact Us</button>
+                </div>
+            </div>
+            <div class="videoDivs">
+                <h4 class="vidHead">WHO</h4>
+                <video autoplay class="vids" id="spaceVid" loop muted>
+                    <source src="assets/videos/pexels-rodnae-productions-8474604.mp4" type="video/mp4">
+                </video>
+                <div class="vidChild">
+                    <h1 id="who-desc" class="fontNanum">“It's not a faith in technology. It's faith in people.”</h1>
+                </div>
+            </div>
+            <div class="videoDivs">
+                <h4 class="vidHead">WORK</h4>
+                <video autoplay class="vids" id="rockVid" loop muted>
+                    <source src="assets/videos/92df49f3-a43e78d1.mp4" type="video/mp4">
+                </video>
+                <div class="vidChild">
+                    <h1 class="fontNanum work-desc">LEARN</h1>
+                    <h1 class="fontNanum work-desc">IMPROVE</h1>
+                    <h1 class="fontNanum work-desc">REDO</h1>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
 </main>
 <script src="assets/js/jquery-3.6.3.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
