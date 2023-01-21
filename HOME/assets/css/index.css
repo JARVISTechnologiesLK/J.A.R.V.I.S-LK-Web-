@@ -12,10 +12,10 @@
     inset: 0;
     margin: auto;
     justify-content: center;
-    gap: 2.5vw;
-    align-items: flex-end;
+    gap: .5vw;
+    align-items: center;
     position: relative;
-    top:60px;
+    top:50px;
 }
 
 .vids{
@@ -93,4 +93,17 @@
     text-align: center;
     color: #FFFFFF;
     margin: 40px;
+}
+.japNames{
+    font-family: 'Nanum Brush Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height:30px;
+    text-align: center;
+    width: 24px;
+    color: #FFFFFF;
+}
+.japNames:nth-of-type(2){
+    line-height:39px;
 }
