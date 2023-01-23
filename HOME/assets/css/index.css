@@ -155,3 +155,38 @@ padding: 0 !important;
     color: #000000;
 
 }
+
+section{
+    margin: 0 !important;
+}
+#about>div{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.about-image-titles{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+
+}
+
+.about-image-description{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.about-img{
+    width: 10vw !important;
+    height: auto !important;
+}
