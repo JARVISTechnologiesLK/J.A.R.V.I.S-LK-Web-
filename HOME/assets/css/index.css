@@ -190,3 +190,48 @@ section{
     width: 10vw !important;
     height: auto !important;
 }
+
+#work{
+    background: #000000;
+}
+
+#work-img{
+    width: 50%;
+    height: auto;
+}
+
+.work-num{
+
+    font-family: 'Nanum Brush Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 124px;
+    line-height: 155px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.work-name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#work-title{
+    font-family: 'Nanum Brush Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 106px;
+    line-height: 132px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
