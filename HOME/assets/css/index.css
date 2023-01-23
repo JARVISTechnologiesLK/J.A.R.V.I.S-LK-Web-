@@ -3,7 +3,9 @@
     height: 100vh;
     background:#000000;
 }
-
+main{
+padding: 0 !important;
+}
 #backVids{
     display: flex;
     width: 100vw;
@@ -16,10 +18,14 @@
     align-items: center;
     position: relative;
     top:50px;
+    overflow: hidden;
 }
-
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
 .vids{
-    height: 92vh !important;
+   width: 25vw;
 }
 
 .vidHead{
