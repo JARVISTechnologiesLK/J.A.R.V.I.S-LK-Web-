@@ -196,7 +196,7 @@ section{
 }
 
 #work-img{
-    width: 50%;
+    width: 55%;
     height: auto;
 }
 
@@ -234,4 +234,8 @@ section{
 
     color: #FFFFFF;
 
+}
+
+#contact{
+    background: #FFFFFF;
 }
