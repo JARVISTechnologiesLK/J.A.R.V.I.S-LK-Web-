@@ -6,6 +6,8 @@
 
 main {
     padding: 0 !important;
+    position: relative;
+
 }
 
 #backVids {
@@ -284,9 +286,6 @@ section {
     font-size: 20px;
     line-height: 30px;
     /* identical to box height */
-
-    display: flex;
-    align-items: center;
     text-align: center;
 
     color: #000000;
@@ -298,11 +297,68 @@ section {
     font-weight: 400;
     font-size: 10px;
     line-height: 15px;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.02em;
 
     color: #000000;
 
+}
+
+#menuIcon{
+    position: fixed;
+    width: 10vh;
+    aspect-ratio: 1/1;
+    background: #000000;
+    left: 0;
+    right: 0;
+    margin: auto !important;
+    bottom: 5vh;
+    border-radius: 50%;
+}
+#menuIcon>h1{
+    font-family: 'Nanum Brush Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+
+#menuIcon>div{
+    aspect-ratio: 1/1;
+    height: .7vh;
+    background: #FFFFFF;
+    border-radius:50% ;
+}
+#menuIcon>div:nth-of-type(1){
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: .8vh;
+}
+
+#menuIcon>div:nth-of-type(2){
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 1.3vh;
+    right: 2vw;
+}
+#menuIcon>div:nth-of-type(3){
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 1.3vh;
+    left: 2vw;
 }
